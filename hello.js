@@ -1,3 +1,15 @@
+// Hello You! part 1
+
+function hello(name) {
+  // put your code here
+  console.log(`hello, ${name}`);
+
+};
+hello('Mustache');
+
+
+// hello You! part 2
+
 function hello(name) {
   // put your code here
   if (name === undefined) {
@@ -5,6 +17,7 @@ function hello(name) {
     console.log (`Hello, World!`);
 
   }
+  
   else {console.log(`Hello, ${name}`);
 
   };
