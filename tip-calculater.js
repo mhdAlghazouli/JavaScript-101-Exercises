@@ -11,9 +11,9 @@ function tipAmount (amount,level) {
 
 };
 
-tipAmount(100, good);
-tipAmount(200, fair);
-tipAmount(120, bad);
+console.log(tipAmount(100, good));
+console.log(tipAmount(200, fair));
+console.log(tipAmount(120, bad));
 
 // tip calculator 2
 
@@ -23,9 +23,9 @@ function totalAmount (amount,level) {
 
 };
 
-totalAmount(100, good);
-totalAmount(200, fair);
-totalAmount(120, bad);
+console.log(totalAmount(100, good));
+console.log(totalAmount(200, fair));
+console.log(totalAmount(120, bad));
 
 // // tip calculator 3
 
@@ -35,6 +35,6 @@ function splitAmount (amount,level,people) {
 
 };
 
-splitAmount(100, good, 5);
-splitAmount(100, fair, 5);
-splitAmount(100, bad, 5);
+console.log(splitAmount(100, good, 5));
+console.log(splitAmount(100, fair, 5));
+console.log(splitAmount(100, bad, 5));

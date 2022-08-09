@@ -10,7 +10,7 @@ hello('Mustache');
 
 // hello You! part 2
 
-function hello(name) {
+function hello2(name) {
   // put your code here
   if (name === undefined) {
 
@@ -24,5 +24,5 @@ function hello(name) {
 
 };
 
-hello(`Mustach`);
-hello();
+hello2(`Mustach`);
+hello2();

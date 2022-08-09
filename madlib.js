@@ -3,4 +3,4 @@ function madlib (name,subject) {
   return `${name}'s favorite subject in school is ${subject}.`;
 
 };
-cmadlib(`Anushka`,`art`);
+console.log(madlib(`Anushka`,`art`));
